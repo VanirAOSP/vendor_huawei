@@ -16,11 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/huawei/angler/proprietary/system/bin/ATFWD-daemon:system/system/bin/ATFWD-daemon \
     vendor/huawei/angler/proprietary/system/bin/cnd:system/system/bin/cnd \
     vendor/huawei/angler/proprietary/system/bin/diag_callback_client:system/system/bin/diag_callback_client \
