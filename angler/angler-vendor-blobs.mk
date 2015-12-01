@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
     vendor/huawei/angler/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/huawei/angler/proprietary/bin/dsm_ctrl:system/bin/dsm_ctrl \
-    vendor/huawei/angler/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/huawei/angler/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/huawei/angler/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/angler/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
