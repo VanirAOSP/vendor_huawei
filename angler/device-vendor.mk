@@ -18,9 +18,14 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    CABLService \
+    DMAgent \
+    HwMMITest \
+    HwSarControlService \
     ims \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    Tycho
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -29,5 +34,13 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CNEService
+    CallStatistics \
+    CNEService \
+    ConnMO \
+    DCMO \
+    DiagMon \
+    DMService \
+    GCS \
+    HiddenMenu \
+    SprintDM
 
