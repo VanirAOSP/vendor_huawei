@@ -24,8 +24,7 @@ PRODUCT_PACKAGES += \
     HwSarControlService \
     ims \
     qcrilmsgtunnel \
-    TimeService \
-    Tycho
+    TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -40,7 +39,6 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     DMService \
-    GCS \
     HiddenMenu \
     SprintDM
 
