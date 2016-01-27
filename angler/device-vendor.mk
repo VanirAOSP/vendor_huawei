@@ -18,10 +18,6 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    CABLService \
-    DMAgent \
-    HwMMITest \
-    HwSarControlService \
     ims \
     qcrilmsgtunnel \
     TimeService
@@ -33,12 +29,5 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CallStatistics \
-    CNEService \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMService \
-    HiddenMenu \
-    SprintDM
+    CNEService
 

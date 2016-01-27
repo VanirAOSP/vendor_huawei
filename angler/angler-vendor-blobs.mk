@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/huawei/angler/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/app/HwMMITest/lib/arm64/libManufacture.so:system/app/HwMMITest/lib/arm64/libManufacture.so \
     vendor/huawei/angler/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/huawei/angler/proprietary/bin/cnd:system/bin/cnd \
     vendor/huawei/angler/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
@@ -102,12 +101,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/huawei/angler/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/angler/proprietary/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml:system/etc/pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
     vendor/huawei/angler/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/huawei/angler/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huawei/angler/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/angler/proprietary/lib64/hw/gps.msm8994.so:system/lib64/hw/gps.msm8994.so \
@@ -123,9 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/hw/gps.msm8994.so:system/lib/hw/gps.msm8994.so \
     vendor/huawei/angler/proprietary/lib/hw/nfc_nci.angler.so:system/lib/hw/nfc_nci.angler.so \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
-    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
     vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/huawei/angler/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
     vendor/huawei/angler/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/angler/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/huawei/angler/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
