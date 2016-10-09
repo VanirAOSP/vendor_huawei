@@ -33,7 +33,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollment
 LOCAL_MODULE_OWNER := huawei
-LOCAL_SRC_FILES := proprietary/HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
